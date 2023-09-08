@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>ToDo-list</title>
+</head>
+<body>
+  <section>
+
+    <div class="todo-content">
+      <div class="todo-header-container">
+        <h1>Today Tasks</h1>
+        <div class="todo-counter-container">
+          <span class="counter"></span>
+        </div>
+      </div>
+
+      <div class="decorated-line"></div>
+
+      <ul id="todo-list">
+        
+      </ul>
+     
+
+      <div class="todo-add-container">
+        <input id="input-box" type="text" aria-label="Describe" placeholder="Type something..." required>
+        <button class="add-button" type="submit"></button>
+      </div>
+
+      <div class="todo-completed-container">
+        <h2>Completed Tasks</h2>
+        <div class="decorated-line"></div>
+
+        <ul id="completed-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="/script/script.js"></script>
+</body>
+</html>
